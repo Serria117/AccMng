@@ -7,5 +7,4 @@ public class Province
     public string ProvinceCode { get; set; } = string.Empty;
 
     public virtual ICollection<District> Districts { get; set; } = new HashSet<District>();
-    public ICollection<Customer> Customers { get; set; } = new HashSet<Customer>();
-}
+ }
